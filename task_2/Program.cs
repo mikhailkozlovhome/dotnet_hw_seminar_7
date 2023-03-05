@@ -41,7 +41,7 @@ void PrintArray(double[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            System.Console.Write($"{array[i, j]:f2} ");   
+            System.Console.Write($"{array[i, j]:f2}\t");   
         }
         System.Console.WriteLine();
     }
